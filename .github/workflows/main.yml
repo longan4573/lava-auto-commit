@@ -35,8 +35,8 @@ jobs:
 
       - name: Configure Git identity
         run: |
-          git config user.email "$GIT_USER_EMAIL"
-          git config user.name "$GIT_USER_NAME"
+          git config user.email "longan@dongqn.com"
+          git config user.name "longan4573"
 
       - name: Commit changes
         run: |
